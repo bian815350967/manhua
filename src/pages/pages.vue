@@ -6,7 +6,8 @@
     </fixed-top>
     <ul class="uls" v-if="this.$route.query.name === '星辰变'">
       <li v-for="(item, index) in imgsArr" :key="item" class="list" ref="xImgList">
-        <img :src="imgHref + pageM + '/' + item" alt="" class="img" @click="reload(index, imgHref + pageM + '/' + item)">
+<!--        https://mh1.zhengdongwuye.cn/upload/xingchenbian/446/0000.jpg-->
+        <img :src="'https://mh1.zhengdongwuye.cn/upload/xingchenbian/' + pageIndex + '/000'+ index +'.jpg'" alt="" class="img" @click="reload(index, imgHref + pageM + '/' + item)">
         <div class="total-t">{{index + 1}} / {{totalImg}}</div>
       </li>
     </ul>
@@ -22,6 +23,7 @@
     </ul>
     <ul class="uls doupo-uls" v-if="this.$route.query.name === '斗罗大陆'" ref="ulDlo">
       <li v-for="(item, mindex) in totalImg" :key="queryPage + '' + item" class="list" ref="dImgList" v-if="pageIndex < 600">
+<!--        https://mh1.zhengdongwuye.cn/upload/douluodaliu/70/0001.jpg-->
         <img class="img" :src="'https://mhpic.manhualang.com/comic/D/斗罗大陆拆分版/'+ queryPage +'话/' + item + '.jpg-mht.middle.webp'" alt="" @click="reload(mindex, 'https://mhpic.manhualang.com/comic/D/斗破苍穹拆分版/'+ queryPage +'话/' + item + '.jpg-mht.middle.webp')" >
         <div class="total-t">{{mindex + 1}} / {{totalImg}}</div>
       </li>

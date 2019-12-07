@@ -8,7 +8,7 @@
         <div class="banner-img"></div>
         <div class="banner">
           <div class="left">
-            <img src="https://img001.yayxcc.com/images/cover/201806/1529455715_1tHF6zSxFrqvJg6.jpg" alt="">
+            <img src="https://image.yqmh.com/mh/25934.jpg-300x400.webp" alt="">
           </div>
           <div class="right">
             <p>更新至：第{{totalPage}}话</p>
@@ -25,7 +25,7 @@
         <div class="banner-img"></div>
         <div class="banner">
           <div class="left">
-            <img src="https://img001.yayxcc.com/images/cover/201804/1524124441EQr13r3zSnKgA4hP.jpg" alt="">
+            <img src="https://mh1.zhengdongwuye.cn/pic/manhua/images/8011832018717.jpg" alt="">
           </div>
           <div class="right">
             <p>更新至：第{{totalPage}}话</p>

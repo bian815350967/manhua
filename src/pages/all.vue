@@ -9,6 +9,12 @@
         <p>{{item.name}}</p>
       </li>
     </ul>
+    <h3 class="title">友情链接</h3>
+    <div class="link-w">
+      <a href="https://bian815350967.github.io/mapp/vueCommunity">VUE社区</a>
+      <a href="https://bian815350967.github.io/mapp/elm">饿了么外卖</a>
+      <a href="https://bian815350967.github.io/mapp/douban">豆瓣网</a>
+    </div>
   </div>
 </template>
 
@@ -19,11 +25,11 @@
 			  manhuaData: [
           {
             name: '星辰变',
-            img: 'https://img001.yayxcc.com/images/cover/201804/1524124441EQr13r3zSnKgA4hP.jpg'
+            img: 'https://mh1.zhengdongwuye.cn/pic/manhua/images/8011832018717.jpg'
           },
           {
             name: '斗破苍穹',
-            img: 'https://img001.yayxcc.com/images/cover/201806/1529455715_1tHF6zSxFrqvJg6.jpg'
+            img: 'https://image.yqmh.com/mh/25934.jpg-300x400.webp'
           },
           {
             name: '斗罗大陆',
@@ -55,6 +61,12 @@
     font-size: 16px
     font-weight:bold
     margin: 10px
+  .link-w
+    padding-left: 10px
+    a
+      margin-right: 20px
+      color #2299dd
+      text-decoration none
   .all-uls
     display: flex
     flex-wrap wrap
